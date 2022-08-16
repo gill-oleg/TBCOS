@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>single_page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="wrap header-wrap">
+        <a class="logo" href="index.html">
+          <img class="logo-img" src="img/logo.png" alt="logo" />
+          <p class="logo-text">BRAN<span class="logo-special">D</span></p>
+        </a>
+        <div class="search">
+          <div class="butt-nav">
+            <button class="search-box">
+              <span class="search-box-text">Browse</span>
+            </button>
+            <div class="button-nav">
+              <div class="button-nav-n">
+                <span class="button-nav-name">Women</span>
+              </div>
+
+              <ul class="button-nav-lings">
+                <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                <li><a class="button-nav-ling" href="#">Tops</a></li>
+                <li><a class="button-nav-ling" href="#">Sweaters/Knits</a></li>
+                <li><a class="button-nav-ling" href="#">Jackets/Coats</a></li>
+                <li><a class="button-nav-ling" href="#">Blazers</a></li>
+                <li><a class="button-nav-ling" href="#">Denim</a></li>
+                <li><a class="button-nav-ling" href="#">Leggings/Pants</a></li>
+                <li><a class="button-nav-ling" href="#">Skirts/Shorts</a></li>
+                <li><a class="button-nav-ling" href="#">Accessories</a></li>
+              </ul>
+              <div class="button-nav-n">
+                <span class="button-nav-name">Man</span>
+              </div>
+              <ul class="button-nav-lings">
+                <li><a class="button-nav-ling" href="#">Tees/Tank tops</a></li>
+                <li><a class="button-nav-ling" href="#">Shirts/Polos</a></li>
+                <li><a class="button-nav-ling" href="#">Sweaters</a></li>
+                <li>
+                  <a class="button-nav-ling" href="#">Sweatshirts/Hoodies</a>
+                </li>
+                <li><a class="button-nav-ling" href="#">Blazers</a></li>
+                <li><a class="button-nav-ling" href="#">Jackets/vests</a></li>
+              </ul>
+            </div>
+          </div>
+          <form action="post" class="search-f">
+            <input
+              type="text"
+              class="search-f-text"
+              placeholder="Search for Item..."
+            />
+            <button type="submit" class="search-f-submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="account">
+          <a class="account-img" href="shopping-cart.html"
+            ><img
+              class="account-basket"
+              src="img/basket_copy.png"
+              alt="basket_copy"
+          /></a>
+          <div class="acc-drop">
+            <button class="account-text">
+              <span class="account-text-arr">My Account</span>
+            </button>
+            <div class="account-drop">
+              <div class="account-drop-content">
+                <img class="drop-img" src="img/drop1.png" alt="photo-drop" />
+                <div class="drop-text">
+                  <span class="drop-text-name">Rebox Zane</span>
+                  <div class="drop-text-rating-stars">
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                  </div>
+
+                  <span class="drop-text-price">1 x $250</span>
+                </div>
+                <div class="drop-del-butt">
+                  <button class="drop-del"></button>
+                </div>
+              </div>
+              <div class="account-drop-content">
+                <img class="drop-img" src="img/drop2.png" alt="photo-drop" />
+                <div class="drop-text">
+                  <span class="drop-text-name">Rebox Zane</span>
+                  <div class="drop-text-rating-stars">
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                  </div>
+
+                  <span class="drop-text-price">1 x $250</span>
+                </div>
+                <div class="drop-del-butt">
+                  <button class="drop-del"></button>
+                </div>
+              </div>
+              <div class="account-drop-text">
+                <span class="account-drop-t">total</span>
+                <span class="account-drop-t">$500.00</span>
+              </div>
+              <div class="account-drop-text-buttons">
+                <button class="drop-button-brd" href="checkout.html">
+                  <span class="drop-button-text">Checkout</span>
+                </button>
+                <button class="drop-button-brd" href="shopping-cart.html">
+                  <span class="drop-button-text">Go to cart</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="wrap nav-wrap">
+        <ul class="nav-main">
+          <li class="nav-item">
+            <div class="nav-links">
+              <a href="index.html" class="nav-link">Home</a>
+              <div class="nav-drop">
+                <div class="nav-drop-content content-drop">
+                  <div class="button-nav-n">
+                    <span class="button-nav-name">Women</span>
+                  </div>
+
+                  <ul class="button-nav-lings">
+                    <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                    <li><a class="button-nav-ling" href="#">Tops</a></li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                    </li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Jackets/Coats</a>
+                    </li>
+                    <li><a class="button-nav-ling" href="#">Blazers</a></li>
+                    <li><a class="button-nav-ling" href="#">Denim</a></li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Leggings/Pants</a>
+                    </li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Skirts/Shorts</a>
+                    </li>
+                    <li><a class="button-nav-ling" href="#">Accessories</a></li>
+                  </ul>
+                </div>
+                <div class="nav-drop-content content-drop">
+                  <div class="nav-drop-content2">
+                    <div class="button-nav-n">
+                      <span class="button-nav-name">Women</span>
+                    </div>
+
+                    <ul class="button-nav-lings">
+                      <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                      <li><a class="button-nav-ling" href="#">Tops</a></li>
+                      <li>
+                        <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                      </li>
+                      <li>
+                        <a class="button-nav-ling" href="#">Jackets/Coats</a>
+                      </li>
+                    </ul>
+                    <div class="button-nav-n">
+                      <span class="button-nav-name">Women</span>
+                    </div>
+
+                    <ul class="button-nav-lings">
+                      <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                      <li><a class="button-nav-ling" href="#">Tops</a></li>
+                      <li>
+                        <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="nav-drop-content content-drop">
+                  <div class="button-nav-n">
+                    <span class="button-nav-name">Women</span>
+                  </div>
+
+                  <ul class="button-nav-lings button-nav-lings-spec">
+                    <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                    <li><a class="button-nav-ling" href="#">Tops</a></li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                    </li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Jackets/Coats</a>
+                    </li>
+                  </ul>
+                  <div class="nav-drop-img-text">
+                    <span class="nav-drop-text"
+                      >Super <br />
+                      sale!</span
+                    >
+                    <img
+                      class="nav-drop-img"
+                      src="img/nav-drop.png"
+                      alt="nav-drop photo"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Man</a>
+          </li>
+          <li class="nav-item">
+            <a href="single-page.html" class="nav-link">Women</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Kids</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Accoseriese</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Featured</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Hot deals</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="heading">
+      <div class="wrap heading-wrap">
+        <div class="heading-text">
+          <div class="h-text-h">new arrivals</div>
+          <div class="h-text-t">
+            Home / Men /<span class="h-text-ts"> New Arrivals</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main3">
+      <div class="main3-bg">
+        <div class="main3-arrow">
+          <a href="#"><i class="fas fa-angle-left"></i></a>
+        </div>
+
+        <div class="wrap">
+          <div class="main3-img">
+            <img src="img/sp1.png" alt="photo" />
+          </div>
+
+          <div class="main3-form">
+            <div class="form-heading">
+              <span class="form-heading-h1">WOMEN COLLECTION</span>
+              <div class="form-range">
+                <div class="form-range-contr">
+                  <div class="form-scale">
+                    <div class="form-bar"></div>
+                  </div>
+                </div>
+              </div>
+              <span class="form-heading-h2">Moschino Cheap And Chic</span>
+            </div>
+            <div class="form-main">
+              <div class="form-main-text">
+                <span class="form-main-tx"
+                  >Compellingly actualize fully researched processes before
+                  proactive outsourcing. Progressively syndicate collaborative
+                  architectures before cutting-edge services. Completely
+                  visualize parallel core competencies rather than exceptional
+                  portals.</span
+                >
+              </div>
+              <div class="form-main-md">
+                <div class="main3-mat">
+                  <span class="main3-mat-text"
+                    >MATERIAL:
+                    <span class="main3-mat-text-sp">COTTON</span></span
+                  >
+                </div>
+                <div class="main3-des">
+                  <span class="main3-mat-text"
+                    >DESIGNER:
+                    <span class="main3-mat-text-sp">BINBURHAN</span></span
+                  >
+                </div>
+              </div>
+              <div class="main3-price">
+                <span class="main3-price-text">$561</span>
+              </div>
+            </div>
+            <div class="form-filters">
+              <div class="form-filter">
+                <div class="form-color-head">
+                  <span class="form-filter-text">CHOOSE COLOR</span>
+                </div>
+                <div class="m3-color-s">
+                  <select class="m3-sort">
+                    <option value="Name">Red</option>
+                    <option value="Data">Blue</option>
+                    <option value="Price">Black</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-filter">
+                <div class="form-size-head">
+                  <span class="form-filter-text">CHOOSE SIZE</span>
+                </div>
+                <div class="m3-size-s">
+                  <select class="m3-sort">
+                    <option value="Name">M</option>
+                    <option value="Data">L</option>
+                    <option value="Price">M</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-filter">
+                <div class="form-QUANTITY-head">
+                  <span class="form-filter-text">QUANTITY</span>
+                </div>
+                <div class="m3-QUANTITY-s">
+                  <select class="m3-sort">
+                    <option value="Name">2</option>
+                    <option value="Data">4</option>
+                    <option value="Price">8</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-button">
+              <button type="button" class="form-but">
+                <span class="form-button-text">Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="main3-arrow">
+          <a href=""><i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="additional">
+      <div class="wrap">
+        <div class="main3-bottom">
+          <div class="main3-bottom-name">
+            <span class="m3-bot-text">you may like also</span>
+          </div>
+          <div class="main3-bottom-cat">
+            <div class="catalog-add">
+              <div class="catalog-add-item">
+                <img class="img-trans" src="img/ap1.png" alt="item1" />
+                <h3 class="catalog-item-name-a">BLAZE LEGGINGS</h3>
+                <p class="catalog-item-price">$52.00</p>
+              </div>
+              <div class="catalog-add-item-s">
+                <img class="img-trans" src="img/layers1_1_1.png" alt="item2" />
+                <span class="catalog-item-name-a">ALEXA SWEATER</span>
+                <p class="catalog-item-price">$52.00</p>
+              </div>
+              <div class="catalog-add-item">
+                <img class="img-trans" src="img/ap3.png" alt="item3" />
+                <h3 class="catalog-item-name-a">AGNES TOP</h3>
+                <p class="catalog-item-price">$52.00</p>
+              </div>
+              <div class="catalog-add-item">
+                <img class="img-trans" src="img/ap4.png" alt="item4" />
+                <h3 class="catalog-item-name-a">SYLVA SWEATER</h3>
+                <p class="catalog-item-price">$52.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <div class="wrap feedback-wrap">
+        <div class="feedback-fb">
+          <div class="feedback-img">
+            <img src="img/fb_face.png" alt="face" />
+          </div>
+          <div class="feedback-text">
+            <div class="feedback-text-fb">
+              <span class="feedback-text-fb1"
+                >"Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque
+                sed pretium"</span
+              >
+            </div>
+            <div class="feedback-text-name">
+              <span class="feedback-text-name1"> Bin Burhan</span>
+              <span class="feedback-text-name2"> Dhaka, Bd</span>
+            </div>
+            <div class="feedback-lines">
+              <a href="#" class="feedback-line"></a>
+              <a href="#" class="feedback-line-sp"></a>
+              <a href="#" class="feedback-line"></a>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-email">
+          <div class="feedback-email-heading">
+            <span class="feedback-sub">Subscribe</span>
+            <span class="feedback-sub-text"
+              >FOR OUR NEWLETTER AND PROMOTION</span
+            >
+          </div>
+          <div class="feedback-email-em">
+            <form action="post" class="feedback-email-em1">
+              <input
+                type="email"
+                class="feedback-email-text"
+                placeholder="Enter Your Email"
+              />
+              <button class="feedback-email-submit">
+                <span class="feedback-email-submit-text">Subscribe</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="wrap footer-wrap">
+          <div class="footer-brand">
+            <a class="logo" href="index.html">
+              <img class="logo-img" src="img/logo.png" alt="logo" />
+              <p class="logo-text">BRAN<span class="logo-special">D</span></p>
+            </a>
+            <div class="footer-brand-text">
+              <p class="footer-brand-text1">
+                Objectively transition extensive data rather than cross
+                functional solutions. Monotonectally syndicate multidisciplinary
+                materials before go forward benefits. Intrinsicly syndicate an
+                expanded array of processes and cross-unit partnerships.
+              </p>
+              <p class="footer-brand-text2">
+                Efficiently plagiarize 24/365 action items and focused
+                infomediaries. Distinctively seize superior initiatives for
+                wireless technologies. Dynamically optimize.
+              </p>
+            </div>
+          </div>
+          <div class="footer-list">
+            <div class="list-number">
+              <h2 class="list-number-name">COMPANY</h2>
+              <ul class="list-number-list">
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOME</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">SHOP</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">ABOUT</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOW IT WORKS</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">CONTACTS</a>
+                </li>
+              </ul>
+            </div>
+            <div class="list-number">
+              <h2 class="list-number-name">INFORMATION</h2>
+              <ul class="list-number-list">
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">TEAMS & CONDITION</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">PRIVACY POLICY</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOW TO BUY</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOW TO SELL</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">PROMOTION</a>
+                </li>
+              </ul>
+            </div>
+            <div class="list-number">
+              <h2 class="list-number-name">SHOP CATEGORY</h2>
+              <ul class="list-number-list">
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">MEN</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">WOMEN</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">CHILD</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">APPAREL</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">BROWS ALL</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="wrap footer-wrap">
+          <div class="footer-copy">
+            <p class="footer-copy-text">
+              &copy; 2020 Brand All Rights Reserved
+            </p>
+          </div>
+          <div class="footer-icons">
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-pinterest-p"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-google-plus-g"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

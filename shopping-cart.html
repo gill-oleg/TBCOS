@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoping_cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="wrap header-wrap">
+        <a class="logo" href="index.html">
+          <img class="logo-img" src="img/logo.png" alt="logo" />
+          <p class="logo-text">BRAN<span class="logo-special">D</span></p>
+        </a>
+        <div class="search">
+          <div class="butt-nav">
+            <button class="search-box">
+              <span class="search-box-text">Browse</span>
+            </button>
+            <div class="button-nav">
+              <div class="button-nav-n">
+                <span class="button-nav-name">Women</span>
+              </div>
+
+              <ul class="button-nav-lings">
+                <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                <li><a class="button-nav-ling" href="#">Tops</a></li>
+                <li><a class="button-nav-ling" href="#">Sweaters/Knits</a></li>
+                <li><a class="button-nav-ling" href="#">Jackets/Coats</a></li>
+                <li><a class="button-nav-ling" href="#">Blazers</a></li>
+                <li><a class="button-nav-ling" href="#">Denim</a></li>
+                <li><a class="button-nav-ling" href="#">Leggings/Pants</a></li>
+                <li><a class="button-nav-ling" href="#">Skirts/Shorts</a></li>
+                <li><a class="button-nav-ling" href="#">Accessories</a></li>
+              </ul>
+              <div class="button-nav-n">
+                <span class="button-nav-name">Man</span>
+              </div>
+              <ul class="button-nav-lings">
+                <li><a class="button-nav-ling" href="#">Tees/Tank tops</a></li>
+                <li><a class="button-nav-ling" href="#">Shirts/Polos</a></li>
+                <li><a class="button-nav-ling" href="#">Sweaters</a></li>
+                <li>
+                  <a class="button-nav-ling" href="#">Sweatshirts/Hoodies</a>
+                </li>
+                <li><a class="button-nav-ling" href="#">Blazers</a></li>
+                <li><a class="button-nav-ling" href="#">Jackets/vests</a></li>
+              </ul>
+            </div>
+          </div>
+          <form action="post" class="search-f">
+            <input
+              type="text"
+              class="search-f-text"
+              placeholder="Search for Item..."
+            />
+            <button type="submit" class="search-f-submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="account">
+          <a class="account-img" href="shopping-cart.html"
+            ><img
+              class="account-basket"
+              src="img/basket_copy.png"
+              alt="basket_copy"
+          /></a>
+          <div class="acc-drop">
+            <button class="account-text">
+              <span class="account-text-arr">My Account</span>
+            </button>
+            <div class="account-drop">
+              <div class="account-drop-content">
+                <img class="drop-img" src="img/drop1.png" alt="photo-drop" />
+                <div class="drop-text">
+                  <span class="drop-text-name">Rebox Zane</span>
+                  <div class="drop-text-rating-stars">
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                  </div>
+
+                  <span class="drop-text-price">1 x $250</span>
+                </div>
+                <div class="drop-del-butt">
+                  <button class="drop-del"></button>
+                </div>
+              </div>
+              <div class="account-drop-content">
+                <img class="drop-img" src="img/drop2.png" alt="photo-drop" />
+                <div class="drop-text">
+                  <span class="drop-text-name">Rebox Zane</span>
+                  <div class="drop-text-rating-stars">
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                    <span class="drop-text-rating"></span>
+                  </div>
+
+                  <span class="drop-text-price">1 x $250</span>
+                </div>
+                <div class="drop-del-butt">
+                  <button class="drop-del"></button>
+                </div>
+              </div>
+              <div class="account-drop-text">
+                <span class="account-drop-t">total</span>
+                <span class="account-drop-t">$500.00</span>
+              </div>
+              <div class="account-drop-text-buttons">
+                <button class="drop-button-brd" href="checkout.html">
+                  <span class="drop-button-text">Checkout</span>
+                </button>
+                <button class="drop-button-brd" href="shopping-cart.html">
+                  <span class="drop-button-text">Go to cart</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="wrap nav-wrap">
+        <ul class="nav-main">
+          <li class="nav-item">
+            <div class="nav-links">
+              <a href="index.html" class="nav-link">Home</a>
+              <div class="nav-drop">
+                <div class="nav-drop-content content-drop">
+                  <div class="button-nav-n">
+                    <span class="button-nav-name">Women</span>
+                  </div>
+
+                  <ul class="button-nav-lings">
+                    <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                    <li><a class="button-nav-ling" href="#">Tops</a></li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                    </li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Jackets/Coats</a>
+                    </li>
+                    <li><a class="button-nav-ling" href="#">Blazers</a></li>
+                    <li><a class="button-nav-ling" href="#">Denim</a></li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Leggings/Pants</a>
+                    </li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Skirts/Shorts</a>
+                    </li>
+                    <li><a class="button-nav-ling" href="#">Accessories</a></li>
+                  </ul>
+                </div>
+                <div class="nav-drop-content content-drop">
+                  <div class="nav-drop-content2">
+                    <div class="button-nav-n">
+                      <span class="button-nav-name">Women</span>
+                    </div>
+
+                    <ul class="button-nav-lings">
+                      <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                      <li><a class="button-nav-ling" href="#">Tops</a></li>
+                      <li>
+                        <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                      </li>
+                      <li>
+                        <a class="button-nav-ling" href="#">Jackets/Coats</a>
+                      </li>
+                    </ul>
+                    <div class="button-nav-n">
+                      <span class="button-nav-name">Women</span>
+                    </div>
+
+                    <ul class="button-nav-lings">
+                      <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                      <li><a class="button-nav-ling" href="#">Tops</a></li>
+                      <li>
+                        <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="nav-drop-content content-drop">
+                  <div class="button-nav-n">
+                    <span class="button-nav-name">Women</span>
+                  </div>
+
+                  <ul class="button-nav-lings button-nav-lings-spec">
+                    <li><a class="button-nav-ling" href="#">Dresses</a></li>
+                    <li><a class="button-nav-ling" href="#">Tops</a></li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Sweaters/Knits</a>
+                    </li>
+                    <li>
+                      <a class="button-nav-ling" href="#">Jackets/Coats</a>
+                    </li>
+                  </ul>
+                  <div class="nav-drop-img-text">
+                    <span class="nav-drop-text"
+                      >Super <br />
+                      sale!</span
+                    >
+                    <img
+                      class="nav-drop-img"
+                      src="img/nav-drop.png"
+                      alt="nav-drop photo"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Man</a>
+          </li>
+          <li class="nav-item">
+            <a href="single-page.html" class="nav-link">Women</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Kids</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Accoseriese</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Featured</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Hot deals</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="heading">
+      <div class="wrap heading-wrap">
+        <div class="heading-text">
+          <div class="h-text-h">new arrivals</div>
+          <div class="h-text-t">
+            Home / Men /<span class="h-text-ts"> New Arrivals</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main4">
+      <div class="wrap">
+        <div class="main4-head">
+          <div class="m4-head-product">
+            <span class="m4-product-text">Product Details</span>
+          </div>
+          <div class="m4-head-list">
+            <span class="m4-product-list">unite Price</span>
+            <span class="m4-product-list">Quantity</span>
+            <span class="m4-product-list">shipping</span>
+            <span class="m4-product-list">Subtotal</span>
+            <span class="m4-product-list">ACTION</span>
+          </div>
+        </div>
+        <div class="main4-cat">
+          <div class="cat-strings">
+            <div class="cat-box">
+              <img src="img/cat1.png" alt="photo" />
+              <div class="cat-box-text">
+                <div class="box-text-top">
+                  <span class="m4cbt-top">Mango People T-shirt</span>
+                </div>
+                <div class="box-text-bot">
+                  <span class="m4cbt-mid">Color:</span
+                  ><span class="m4cbt-bot">Red</span>
+                </div>
+                <div class="box-text-bot">
+                  <span class="m4cbt-mid">Size:</span
+                  ><span class="m4cbt-bot">XXL</span>
+                </div>
+              </div>
+            </div>
+            <div class="cat-info">
+              <div class="cat-info-text-1">
+                <span class="cat-info-text">$150</span>
+              </div>
+              <div class="cat-info-q">
+                <form>
+                  <input type="text" class="cat-info-form" placeholder="2" />
+                </form>
+              </div>
+              <div class="cat-info-text-3">
+                <span class="cat-info-text">FREE</span>
+              </div>
+              <div class="cat-info-text-4">
+                <span class="cat-info-text">$300</span>
+              </div>
+              <div class="cat-info-act">
+                <button class="info-act"></button>
+              </div>
+            </div>
+          </div>
+          <div class="cat-strings">
+            <div class="cat-box">
+              <img src="img/cat2.png" alt="photo" />
+              <div class="cat-box-text">
+                <div class="box-text-top">
+                  <span class="m4cbt-top">Mango People T-shirt</span>
+                </div>
+                <div class="box-text-bot">
+                  <span class="m4cbt-mid">Color:</span
+                  ><span class="m4cbt-bot">Red</span>
+                </div>
+                <div class="box-text-bot">
+                  <span class="m4cbt-mid">Size:</span
+                  ><span class="m4cbt-bot">XXL</span>
+                </div>
+              </div>
+            </div>
+            <div class="cat-info">
+              <div class="cat-info-text-1">
+                <span class="cat-info-text">$150</span>
+              </div>
+              <div class="cat-info-q">
+                <form>
+                  <input type="text" class="cat-info-form" placeholder="2" />
+                </form>
+              </div>
+              <div class="cat-info-text-3">
+                <span class="cat-info-text">FREE</span>
+              </div>
+              <div class="cat-info-text-4">
+                <span class="cat-info-text">$300</span>
+              </div>
+              <div class="cat-info-act">
+                <button class="info-act"></button>
+              </div>
+            </div>
+          </div>
+          <div class="cat-strings">
+            <div class="cat-box">
+              <img src="img/cat3.png" alt="photo" />
+              <div class="cat-box-text">
+                <div class="box-text-top">
+                  <span class="m4cbt-top">Mango People T-shirt</span>
+                </div>
+                <div class="box-text-bot">
+                  <span class="m4cbt-mid">Color:</span
+                  ><span class="m4cbt-bot">Red</span>
+                </div>
+                <div class="box-text-bot">
+                  <span class="m4cbt-mid">Size:</span
+                  ><span class="m4cbt-bot">XXL</span>
+                </div>
+              </div>
+            </div>
+            <div class="cat-info">
+              <div class="cat-info-text-1">
+                <span class="cat-info-text">$150</span>
+              </div>
+              <div class="cat-info-q">
+                <form>
+                  <input type="text" class="cat-info-form" placeholder="2" />
+                </form>
+              </div>
+              <div class="cat-info-text-3">
+                <span class="cat-info-text">FREE</span>
+              </div>
+              <div class="cat-info-text-4">
+                <span class="cat-info-text">$300</span>
+              </div>
+              <div class="cat-info-act">
+                <button class="info-act"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main4-foot">
+          <div class="main4-foot-butt">
+            <button class="foot-butt">
+              <span class="foot-butt-text">cLEAR SHOPPING CART</span>
+            </button>
+            <button class="foot-butt">
+              <span class="foot-butt-text">cONTINUE sHOPPING</span>
+            </button>
+          </div>
+          <div class="main4-foot-form">
+            <div class="foot-form-left">
+              <div class="form-left-head">
+                <span class="form-head">Shipping Adress</span>
+              </div>
+              <form class="m4-fl">
+                <select class="sort-country">
+                  <option value="Name">China</option>
+                  <option value="Data">USA</option>
+                  <option value="Price">Bangladesh</option>
+                </select>
+                <input
+                  type="text"
+                  class="sort-country-inp"
+                  placeholder="State"
+                />
+                <input
+                  type="text"
+                  class="sort-country-inp"
+                  placeholder="Postcode / Zip"
+                />
+                <button class="sort-country-but">
+                  <span class="sort-country-button">get a quote</span>
+                </button>
+              </form>
+            </div>
+            <div class="foot-form-mid">
+              <div class="form-left-head">
+                <span class="form-head">coupon discount</span>
+              </div>
+              <div class="form-left-mid">
+                <span class="form-head-mid"
+                  >Enter your coupon code if you have one</span
+                >
+              </div>
+              <form class="m4-fl">
+                <input
+                  type="text"
+                  class="sort-country-inp"
+                  placeholder="State"
+                />
+                <button class="sort-coupon">
+                  <span class="sort-country-button">Apply coupon</span>
+                </button>
+              </form>
+            </div>
+            <div class="foot-form-right">
+              <div class="form-right-text">
+                <span class="frt-text">Sub total</span
+                ><span class="frt-price">$900</span>
+              </div>
+              <div class="form-right-text2">
+                <span class="frt-text2">GRAND TOTAL</span
+                ><span class="frt-price2">$900</span>
+              </div>
+              <form class="m4-ff">
+                <a class="m4-ffb" href="checkout.html">
+                  <span class="m4-fft">proceed to checkout</span>
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feedback">
+      <div class="wrap feedback-wrap">
+        <div class="feedback-fb">
+          <div class="feedback-img">
+            <img src="img/fb_face.png" alt="face" />
+          </div>
+          <div class="feedback-text">
+            <div class="feedback-text-fb">
+              <span class="feedback-text-fb1"
+                >"Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque
+                sed pretium"</span
+              >
+            </div>
+            <div class="feedback-text-name">
+              <span class="feedback-text-name1"> Bin Burhan</span>
+              <span class="feedback-text-name2"> Dhaka, Bd</span>
+            </div>
+            <div class="feedback-lines">
+              <a href="#" class="feedback-line"></a>
+              <a href="#" class="feedback-line-sp"></a>
+              <a href="#" class="feedback-line"></a>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-email">
+          <div class="feedback-email-heading">
+            <span class="feedback-sub">Subscribe</span>
+            <span class="feedback-sub-text"
+              >FOR OUR NEWLETTER AND PROMOTION</span
+            >
+          </div>
+          <div class="feedback-email-em">
+            <form action="post" class="feedback-email-em1">
+              <input
+                type="email"
+                class="feedback-email-text"
+                placeholder="Enter Your Email"
+              />
+              <button class="feedback-email-submit">
+                <span class="feedback-email-submit-text">Subscribe</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="wrap footer-wrap">
+          <div class="footer-brand">
+            <a class="logo" href="index.html">
+              <img class="logo-img" src="img/logo.png" alt="logo" />
+              <p class="logo-text">BRAN<span class="logo-special">D</span></p>
+            </a>
+            <div class="footer-brand-text">
+              <p class="footer-brand-text1">
+                Objectively transition extensive data rather than cross
+                functional solutions. Monotonectally syndicate multidisciplinary
+                materials before go forward benefits. Intrinsicly syndicate an
+                expanded array of processes and cross-unit partnerships.
+              </p>
+              <p class="footer-brand-text2">
+                Efficiently plagiarize 24/365 action items and focused
+                infomediaries. Distinctively seize superior initiatives for
+                wireless technologies. Dynamically optimize.
+              </p>
+            </div>
+          </div>
+          <div class="footer-list">
+            <div class="list-number">
+              <h2 class="list-number-name">COMPANY</h2>
+              <ul class="list-number-list">
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOME</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">SHOP</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">ABOUT</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOW IT WORKS</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">CONTACTS</a>
+                </li>
+              </ul>
+            </div>
+            <div class="list-number">
+              <h2 class="list-number-name">INFORMATION</h2>
+              <ul class="list-number-list">
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">TEAMS & CONDITION</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">PRIVACY POLICY</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOW TO BUY</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">HOW TO SELL</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">PROMOTION</a>
+                </li>
+              </ul>
+            </div>
+            <div class="list-number">
+              <h2 class="list-number-name">SHOP CATEGORY</h2>
+              <ul class="list-number-list">
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">MEN</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">WOMEN</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">CHILD</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">APPAREL</a>
+                </li>
+                <li class="list-number-list-name">
+                  <a class="list-footer" href="index.html">BROWS ALL</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="wrap footer-wrap">
+          <div class="footer-copy">
+            <p class="footer-copy-text">
+              &copy; 2020 Brand All Rights Reserved
+            </p>
+          </div>
+          <div class="footer-icons">
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-pinterest-p"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fab fa-google-plus-g"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
